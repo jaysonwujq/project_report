@@ -1,0 +1,122 @@
+body {
+	font-size: 14px;
+	font-family: "Microsoft YaHei","微软雅黑","雅黑宋体","新宋体","宋体","Microsoft JhengHei","华文细黑",STHeiti,MingLiu;
+	background-color: #FFFFFF;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+img {
+	border: 0px;
+	max-width: 100%;
+}
+
+a {
+	color: #FFD39B;
+	text-decoration: none;
+	outline: none;
+	hide-focus: expression(this.hideFocus=true);
+}
+
+p{
+	font-size:14px;
+	padding:0px 0px 0px 0px;
+	text-indent:2em ;
+	word-break:break-all;
+	margin:0;
+    margin: 0;
+}
+
+a.shifted_anchor {
+	position: relative;
+	top: -90px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+a:hover {
+	color:#FF0000;
+	text-decoration:none;
+	outline:none;
+	hide-focus: expression(this.hideFocus=true);
+}
+
+table {
+	width: 100%;
+	border: 0px;
+	border-top: 4px #FFD39B solid;
+	border-bottom: 4px #FFD39B solid;
+	text-align: center;
+	border-collapse: collapse;
+	caption-side: top;
+	font-size: 12px;
+}
+
+th {
+	border-bottom: 2px #FFD39B solid
+}
+
+table caption{
+	font-weight: bold;
+	font-size: 15px;
+	color: #FFD39B;
+	margin-bottom: 8px;
+}
+
+h1 {
+	font-size: 20px;
+	color: #FFD39B;
+}
+
+h2 {
+	font-size: 18px;
+	color: #FFD39B;
+	text-indent:0.5em ;
+}
+
+h3 {
+	font-size: 16px;
+	color: #FFD39B;
+	text-indent:1em ;
+}
+
+h4 {
+	font-size: 14px;
+	color: #FFD39B;
+	text-indent:1.5em ;
+}
+
+h5 {
+	font-size: 14px;
+	color: #FFD39B;
+	text-indent:2em ;
+}
+
+sup{
+	color:red;}
+
+.formula {
+	width: 25%;
+}
+
+.enrich_img{
+	width: 85%;
+}
+
+.cytoscape_img{
+	width: 50%;
+}
+
+.help_img {
+	text-align: center;
+}
+
+.pic_table{
+	border: 0px;
+}
+
+.pic_table_desc {
+	padding-left: 20px;
+	text-align: left;
+}

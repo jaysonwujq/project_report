@@ -1,0 +1,159 @@
+body {
+	font-size: 14px;
+	font-family: "Microsoft YaHei","微软雅黑","雅黑宋体","新宋体","宋体","Microsoft JhengHei","华文细黑",STHeiti,MingLiu;
+	background-color: #FFFFFF;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+img {
+	border: 0px;
+	max-width: 100%;
+	text-align: center;
+}
+
+a {
+	color: #436EEE;
+	text-decoration: none;
+	outline: none;
+	hide-focus: expression(this.hideFocus=true);
+}
+
+p{
+	font-size:13px;
+	padding:0px 0px 0px 0px;
+	text-indent:2em ;
+	word-break:break-all;
+	margin:0;
+	line-height: 195%;
+}
+
+a.shifted_anchor {
+	position: relative;
+	top: -90px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+a:hover {
+	color:#FF0000;
+	text-decoration:none;
+	outline:none;
+	hide-focus: expression(this.hideFocus=true);
+}
+
+table {
+	width: 100%;
+	border: 0.5px;
+	border-top: 0.5px black solid;
+	border-bottom: 0.5px black solid;
+	text-align: center;
+	border-collapse: collapse;
+	caption-side: top;
+	font-size: 11px;
+}
+
+th {
+	border-top: 0.5px black solid;
+	border-bottom: 0.5px black solid;
+	border-left: 0.5px black solid;
+	border-right: 0.5px black solid;
+	font-weight: 800;
+}
+
+tr {
+	border-top: 0.5px black solid;
+	border-bottom: 0.5px black solid;
+	border-left: 0.5px black solid;
+	border-right: 0.5px black solid;
+	height: 28px;
+}
+
+td {
+	word-break: "keep-all";
+	border-top: 0.5px black solid;
+	border-bottom: 0.5px black solid;
+	border-left: 0.5px black solid;
+	border-right: 0.5px black solid;
+}
+
+table caption{
+	font-weight: 900;
+	font-size: 14px;
+	color: black;
+	margin-bottom: 8px;
+}
+
+h1 {
+	font-size: 20px;
+	color: black;
+}
+
+h2 {
+	font-size: 18px;
+	color: black;
+	text-indent:0.5em ;
+}
+
+h3 {
+	font-size: 16px;
+	color: black;
+	text-indent:1em ;
+}
+
+h4 {
+	font-size: 14px;
+	color: black;
+	text-indent:1.5em ;
+}
+
+h5 {
+	font-size: 14px;
+	color: black;
+	text-indent:2em ;
+}
+
+sup{
+	color:red;}
+
+.formula {
+	width: 25%;
+}
+
+.enrich_img{
+	width: 85%;
+}
+
+.cytoscape_img{
+	width: 50%;
+}
+
+.help_img {
+	text-align: center;
+}
+
+.pic_table{
+	border: 0px;
+}
+
+.pic_table_desc {
+	padding-left: 20px;
+	text-align: left;
+}
+
+p.img_title {
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 8px;
+}
+
+td.img_title {
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 8px;
+	}
